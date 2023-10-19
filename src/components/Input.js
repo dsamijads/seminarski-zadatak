@@ -10,7 +10,7 @@ export default function Input({onSendMessage, onChangeTypingState}) {
     const text = e.target.value;
     setText(text);
   }
-np,
+
   function onSubmit(e) {
     e.preventDefault();
     setText("");
